@@ -45,8 +45,8 @@ var weeks  = new Array('日','月','火','水','木','金','土');
                         break;
 
         }
-        //document.write( b +"<br>"  );
-        document.write( string +"<br>" );// 通常の残りセット数
+        document.write( c +"<br>"  );
+        //document.write( string +"<br>" );// 通常の残りセット数
 
 -->
 /*]]>*/
