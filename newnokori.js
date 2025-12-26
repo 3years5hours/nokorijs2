@@ -1,3 +1,5 @@
+/* <![CDATA[ */
+<!--
     var a = "※受付終了の場合は、予約注文となり翌月曜日に発送いたします。"
     var b = "<span class='label2'>4月28日～5月6日はお休みとなります。4月27日以降のご注文は5月7日に発送いたします。<\/span>"
     var c = "<span class='label2'>8月10日～17日はお休みとなります。8月8日までのご注文は通常通り翌営業日発送、8月9日以降のご注文は18日発送となります。<\/span>"
@@ -8,13 +10,13 @@
     var h = "<span class='label2'>8月29日～31日はお休みとなります。8月27日夜までのご注文は通常発送。以降のご注文は9月2日の発送となります。<\/span>"
 
     const stockByWeek = {
-    '日': 3, 
-    '月': 15, 
-    '火': 12, 
-    '水': 9, 
-    '木': 8, 
-    '金': 6, 
-    '土': 5 
+        '日': 3, 
+        '月': 15, 
+        '火': 12, 
+        '水': 9, 
+        '木': 8, 
+        '金': 6, 
+        '土': 5 
 }; 
 const weeks = ['日','月','火','水','木','金','土']; 
 const today = new Date(); 
@@ -23,3 +25,6 @@ const stock = stockByWeek[week];
     //document.getElementById("stock").innerHTML =` <span class="label">今週分は残り<\/span><span class="num">${stock}<\/span><span class="label">セットです。<\/span> `;
 
     document.write(d +"<br>");
+
+-->
+/*]]>*/
