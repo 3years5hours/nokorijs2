@@ -23,9 +23,9 @@ const weeks = ['日','月','火','水','木','金','土'];
 const today = new Date(); 
 const week = weeks[today.getDay()]; 
 const stock = stockByWeek[week]; 
-    //document.getElementById("stock").innerHTML =` <span class="label">今週分は残り<\/span><span class="num">${stock}<\/span><span class="label">セットです。<\/span> `;
+    document.getElementById("stock").innerHTML =` <span class="label">今週分は残り<\/span><span class="num">${stock}<\/span><span class="label">セットです。<\/span> `;
 
-    document.write(d +"<br>");
+    //document.write(d +"<br>");
 
 -->
 /*]]>*/
